@@ -1,0 +1,82 @@
+Gaussian PREP Attribution License v1.0
+
+Copyright (c) 2026 Emil Vali
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of Gaussian PREP and associated documentation files (the "Software"), to use,
+copy, modify, and create derivative works of the Software, subject to the
+following conditions:
+
+1. Personal and Non-Commercial Use
+
+You may use the Software free of charge for personal, educational, research,
+or other non-commercial purposes.
+
+No separate public attribution is required for private personal or
+non-commercial use. If you redistribute the Software or a modified version,
+you must retain this license and the copyright notice above.
+
+2. Commercial Use
+
+Commercial use of the Software is permitted free of charge, provided that
+clear attribution is given to both the framework and its original author.
+
+The attribution must identify:
+
+    Gaussian PREP framework
+    Original author: Emil Vali
+
+A suitable attribution is:
+
+    "Built with the Gaussian PREP framework by Emil Vali."
+
+The attribution must be reasonably visible in at least one appropriate
+user-facing or public location associated with the commercial use, such as
+product documentation, an About or Credits page, a public project page, or
+other location where third-party software credits are normally displayed.
+
+The attribution must not imply sponsorship, endorsement, partnership, or
+approval by Emil Vali.
+
+For purposes of this license, "Commercial Use" means use of the Software as
+part of, or in connection with, a paid product or service, revenue-generating
+activity, commercial offering, or other activity primarily intended for
+commercial advantage or monetary compensation.
+
+3. Distribution and Derivative Works
+
+You may redistribute the Software, with or without modifications, provided
+that:
+
+- this license and the copyright notice are included with the distributed
+  source code or documentation; and
+- any Commercial Use complies with the attribution requirement in Section 2.
+
+You may add your own copyright notice for your modifications, but you may not
+remove or misrepresent the original authorship of Gaussian PREP.
+
+4. No Trademark or Endorsement Rights
+
+This license does not grant permission to use the name "Gaussian PREP" or the
+name "Emil Vali" to imply endorsement, sponsorship, or affiliation beyond the
+attribution required by this license.
+
+5. Warranty Disclaimer
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+6. Termination
+
+Your rights under this license terminate automatically if you materially
+violate its terms. Rights are restored if the violation is cured within 30
+days after you become aware of it, provided that repeated violations may be
+treated as uncured.
+
+By using, copying, modifying, distributing, or commercially deploying the
+Software, you agree to the terms of this license.
