@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/gaussian_prep/logo.png" alt="Gaussian PREP logo" width="260">
+</p>
+
 # Gaussian Prep
 
 Gaussian Prep builds exam practice from a question dataset and a plain-language request. It plans the paper, generates or adapts questions, checks answers, reviews individual items, and audits the completed set. It exports a question sheet and separate answer key as PDF or DOCX, with an offline HTML summary.
