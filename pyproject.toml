@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaussian-prep"
+version = "0.1.0"
+description = "Build exam practice across subjects through five roles and independent verification."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pydantic>=2.10,<3", "sympy>=1.13,<2", "httpx>=0.28,<1", "latex2mathml>=3.78,<4", "python-docx>=1.1,<2", "reportlab>=4,<6", "matplotlib>=3.8,<4", "pillow>=10,<13"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+gaussian-prep = "gaussian_prep.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+gaussian_prep = ["banner.txt", "logo.png"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "--basetemp=tmp/pytest"
+cache_dir = "tmp/pytest-cache"

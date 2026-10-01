@@ -1,0 +1,284 @@
+[
+  {
+    "name": "m2-q4-20260916T162558056885",
+    "question": {
+      "slot_id": "M2-04",
+      "stem": "Which of the following expressions is equivalent to \\(\\frac{\\sqrt[3]{8x^2}\\cdot\\sqrt{x}}{\\sqrt[6]{x}}\\) for \\(x > 0\\)?",
+      "format": "MCQ",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\\(2x\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(2x^{2/3}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(4x\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(2x^{4/3}\\)"
+        }
+      ],
+      "answer": "A",
+      "solution": "Rewrite each radical using rational exponents: \\(\\sqrt[3]{8x^2}=2x^{2/3}\\), \\(\\sqrt{x}=x^{1/2}\\), and \\(\\sqrt[6]{x}=x^{1/6}\\). The numerator is \\(2x^{2/3}\\cdot x^{1/2}=2x^{2/3+1/2}=2x^{7/6}\\). Dividing by \\(x^{1/6}\\) gives \\(2x^{7/6-1/6}=2x\\).",
+      "figure": null,
+      "table": null
+    },
+    "model": {
+      "mode": "identity",
+      "interpretation": "The question asks which choice is equivalent to the displayed expression for x > 0. The displayed radical expression is modeled directly as the target: cube root of 8x^2 times square root of x, divided by the sixth root of x. Since x > 0, all roots and denominator restrictions are represented by the constraint x > 0. The choices are represented independently as A: 2x, B: 2x^(2/3), C: 4x, and D: 2x^(4/3).",
+      "variables": [
+        "x"
+      ],
+      "equations": [],
+      "constraints": [
+        {
+          "lhs": "x",
+          "rhs": "0",
+          "operator": "gt"
+        }
+      ],
+      "target": "((8*x**2)**(1/3) * sqrt(x)) / (x**(1/6))",
+      "aggregate": "each",
+      "options": [
+        {
+          "label": "A",
+          "expression": "2*x"
+        },
+        {
+          "label": "B",
+          "expression": "2*x**(2/3)"
+        },
+        {
+          "label": "C",
+          "expression": "4*x"
+        },
+        {
+          "label": "D",
+          "expression": "2*x**(4/3)"
+        }
+      ],
+      "unsupported_reason": ""
+    }
+  },
+  {
+    "name": "m2-q4-20260916T163023097341",
+    "question": {
+      "slot_id": "M2-04",
+      "stem": "Which expression is equivalent to \\(\\frac{\\sqrt[3]{27x^5y^4}}{\\sqrt{9xy^2}}\\) for all \\(x>0\\) and \\(y>0\\)?",
+      "format": "MCQ",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\\(x\\sqrt[6]{x y^2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(x^2\\sqrt[6]{x y^2}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(x\\sqrt[6]{x^2 y}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(x\\sqrt[3]{x y^2}\\)"
+        }
+      ],
+      "answer": "A",
+      "solution": "Rewrite with rational exponents. The numerator is 3 x^(5/3) y^(4/3), and the denominator is 3 x^(1/2) y. Dividing gives x^(7/6) y^(1/3), which equals x times the sixth root of x y^2.",
+      "figure": null,
+      "table": null
+    },
+    "model": {
+      "mode": "identity",
+      "interpretation": "The displayed question asks for an expression equivalent, for all x>0 and y>0, to the quotient of the cube root of 27x^5y^4 and the square root of 9xy^2. The target is exactly the displayed quotient. The four choices are translated independently as expressions in x and y; the positivity constraints ensure both radicals are defined and the denominator is nonzero. No equation is being solved, so equations is empty.",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "equations": [],
+      "constraints": [
+        {
+          "lhs": "x",
+          "rhs": "0",
+          "operator": "gt"
+        },
+        {
+          "lhs": "y",
+          "rhs": "0",
+          "operator": "gt"
+        }
+      ],
+      "target": "((27*x**5*y**4)**(1/3))/(sqrt(9*x*y**2))",
+      "aggregate": "each",
+      "options": [
+        {
+          "label": "A",
+          "expression": "x*(x*y**2)**(1/6)"
+        },
+        {
+          "label": "B",
+          "expression": "x**2*(x*y**2)**(1/6)"
+        },
+        {
+          "label": "C",
+          "expression": "x*(x**2*y)**(1/6)"
+        },
+        {
+          "label": "D",
+          "expression": "x*(x*y**2)**(1/3)"
+        }
+      ],
+      "unsupported_reason": ""
+    }
+  },
+  {
+    "name": "m2-q4-20260916T163043088189",
+    "question": {
+      "slot_id": "M2-04",
+      "stem": "Which expression is equivalent to \\(\\frac{\\sqrt[4]{81x^9y^6}}{\\sqrt[3]{27x^3y^3}}\\) for all \\(x>0\\) and \\(y>0\\)?",
+      "format": "MCQ",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\\(x\\sqrt[4]{x y^2}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(x^2\\sqrt[4]{x y^2}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(x\\sqrt[4]{x^2 y}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(x\\sqrt[4]{x y}\\)"
+        }
+      ],
+      "answer": "A",
+      "solution": "Rewrite each radical with rational exponents. The numerator is \\((81x^9y^6)^{1/4}=3x^{9/4}y^{3/2}\\), and the denominator is \\((27x^3y^3)^{1/3}=3xy\\). Dividing gives \\(x^{9/4-1}y^{3/2-1}=x^{5/4}y^{1/2}\\). This equals \\(x\\sqrt[4]{x y^2}\\), so the key is A.",
+      "figure": null,
+      "table": null
+    },
+    "model": {
+      "mode": "identity",
+      "interpretation": "The displayed question asks which expression is equivalent, for x>0 and y>0, to the quotient of the fourth root of 81x^9y^6 and the cube root of 27x^3y^3. The target is the entire given expression. The constraints x>0 and y>0 ensure the radicals are real and that the expression is defined over the stated domain. Each option is translated independently as a candidate equivalent expression.",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "equations": [],
+      "constraints": [
+        {
+          "lhs": "x",
+          "rhs": "0",
+          "operator": "gt"
+        },
+        {
+          "lhs": "y",
+          "rhs": "0",
+          "operator": "gt"
+        }
+      ],
+      "target": "(81*x**9*y**6)**(1/4)/(27*x**3*y**3)**(1/3)",
+      "aggregate": "each",
+      "options": [
+        {
+          "label": "A",
+          "expression": "x*(x*y**2)**(1/4)"
+        },
+        {
+          "label": "B",
+          "expression": "x**2*(x*y**2)**(1/4)"
+        },
+        {
+          "label": "C",
+          "expression": "x*(x**2*y)**(1/4)"
+        },
+        {
+          "label": "D",
+          "expression": "x*(x*y)**(1/4)"
+        }
+      ],
+      "unsupported_reason": ""
+    }
+  },
+  {
+    "name": "m2-q4-20260916T163056656931",
+    "question": {
+      "slot_id": "M2-04",
+      "stem": "Which expression is equivalent to \\(\\frac{\\sqrt[3]{8x^5y^7}}{\\sqrt{xy}}\\) for \\(x>0\\) and \\(y>0\\)?",
+      "format": "MCQ",
+      "choices": [
+        {
+          "label": "A",
+          "text": "\\(2xy\\sqrt[6]{xy^5}\\)"
+        },
+        {
+          "label": "B",
+          "text": "\\(2xy\\sqrt[6]{x^5y}\\)"
+        },
+        {
+          "label": "C",
+          "text": "\\(2x\\sqrt[6]{xy^5}\\)"
+        },
+        {
+          "label": "D",
+          "text": "\\(2xy\\sqrt[6]{x^2y^5}\\)"
+        }
+      ],
+      "answer": "A",
+      "solution": "Rewrite with rational exponents: \\(\\sqrt[3]{8x^5y^7}=2x^{5/3}y^{7/3}\\) and \\(\\sqrt{xy}=x^{1/2}y^{1/2}\\). Dividing gives \\(2x^{5/3-1/2}y^{7/3-1/2}=2x^{7/6}y^{11/6}\\). Since \\(2x^{7/6}y^{11/6}=2xy\\sqrt[6]{xy^5}\\), the key is A.",
+      "figure": null,
+      "table": null
+    },
+    "model": {
+      "mode": "identity",
+      "interpretation": "The question asks which of four expressions is equivalent to the displayed quotient for positive x and y. The target expression is the original quotient \\frac{\\sqrt[3]{8x^5y^7}}{\\sqrt{xy}}, with the cube root modeled as a 1/3 power and the square root as sqrt(x*y). The conditions x>0 and y>0 ensure the radicands are positive and the original denominator is nonzero. Each MCQ choice is translated as an equivalent expression in x and y.",
+      "variables": [
+        "x",
+        "y"
+      ],
+      "equations": [],
+      "constraints": [
+        {
+          "lhs": "x",
+          "rhs": "0",
+          "operator": "gt"
+        },
+        {
+          "lhs": "y",
+          "rhs": "0",
+          "operator": "gt"
+        }
+      ],
+      "target": "((8*x^5*y^7)**(1/3))/(sqrt(x*y))",
+      "aggregate": "each",
+      "options": [
+        {
+          "label": "A",
+          "expression": "2*x*y*(x*y^5)**(1/6)"
+        },
+        {
+          "label": "B",
+          "expression": "2*x*y*(x^5*y)**(1/6)"
+        },
+        {
+          "label": "C",
+          "expression": "2*x*(x*y^5)**(1/6)"
+        },
+        {
+          "label": "D",
+          "expression": "2*x*y*(x^2*y^5)**(1/6)"
+        }
+      ],
+      "unsupported_reason": ""
+    }
+  }
+]

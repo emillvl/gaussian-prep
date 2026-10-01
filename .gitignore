@@ -1,0 +1,51 @@
+# Credentials and private configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials*.json
+secrets.*
+*.local.*
+
+# Python environments, caches, and distribution output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.pytest-tmp/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+build/
+dist/
+
+# Private datasets, saved runs, and temporary output
+runs/
+data/
+tmp/
+/dataset-report.json
+*.log
+*.tmp
+*.bak
+*.orig
+*.swp
+*~
+
+# Local tools and operating-system metadata
+.idea/
+.vscode/
+.codex/
+.agents/
+.DS_Store
+Thumbs.db
+desktop.ini

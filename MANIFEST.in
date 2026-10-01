@@ -1,0 +1,13 @@
+include .gitignore README.md PROMPTS.md setup.ps1 run.ps1 START.cmd
+recursive-include docs *.md *.png
+recursive-include tests *.py *.json
+prune .venv
+prune runs
+prune data
+prune tmp
+prune build
+prune dist
+prune humanizer
+prune .pytest_cache
+prune .pytest-tmp
+global-exclude __pycache__ *.py[cod] *.log *.tmp *.bak desktop.ini .env .env.* *.pem *.key *.p12 *.pfx
