@@ -6,7 +6,7 @@
 
 Gaussian Prep builds exam practice from a question dataset and a plain-language request. It plans the paper, generates or adapts questions, checks answers, reviews individual items, and audits the completed set. It exports a question sheet and separate answer key as PDF or DOCX, with an offline HTML summary.
 
-The five roles use separate calls to the same model. Supported mathematical answers are checked with SymPy; other tasks rely on model reasoning and review. These checks do not guarantee correct answers, official exam alignment, originality, or calibrated difficulty. Review the material before using it with students.
+The planner, generator, verifier, reviewer, and auditor use separate calls to the same model. Supported mathematical answers are checked with SymPy; other tasks rely on model reasoning and review. These checks do not guarantee correct answers, official exam alignment, originality, or calibrated difficulty. Review the material before using it with students.
 
 ![A Gaussian Prep run in the terminal](docs/images/terminal.png)
 
@@ -17,7 +17,7 @@ The five roles use separate calls to the same model. Supported mathematical answ
 - Access to a configured model provider, or a local Ollama server with a suitable model.
 - Tcl/Tk if you want the dataset file chooser. Supplying a dataset path avoids the chooser.
 
-The launch scripts target Windows and PowerShell. The Python command-line entry point is separate from those scripts; macOS and Linux have not been validated in this release pass.
+The launch scripts use Windows and PowerShell. You can also start the Python program directly, but this release has not been validated on macOS or Linux.
 
 From the project folder, create the environment and install the project:
 
