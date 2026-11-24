@@ -232,4 +232,4 @@ Application code lives in `src/gaussian_prep/`, tests in `tests/`, and detailed 
   <img src="src/gaussian_prep/logo.png" alt="Gaussian PREP logo" width="260">
 </p>
 
-<p align="center"><sub>Gaussian PREP · Originally created by Emil Vali</sub></p>
+<p align="center"><sub>Gaussian PREP · Originally created by Emil Valiyev</sub></p>
